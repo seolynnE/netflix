@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+# NETFLIX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Header
 
-## Available Scripts
+모든 애니메이션은 `framer-motion`을 사용했다.
 
-In the project directory, you can run:
+- 로고 hover 시 로고가 깜빡이는 애니메이션 구현
 
-### `npm start`
+- `<Link />`클릭 시 해당 컴포넌트 이동 및 애니메이션 구현
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Search icon 클릭 시 input창이 열리는 애니메이션
+  해당 input 애니메이션은 useEffect를 사용해 다른 영역에서 클릭하는게 감지되면 input창을 다시 닫을 수 있도록 구현
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 스크롤이 설정 영역 이상 내려가면 헤더의 background가 바뀌도록 구현
