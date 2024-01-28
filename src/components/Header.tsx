@@ -10,10 +10,10 @@ const Nav = styled(motion.nav)`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80px;
-  padding: 20px 60px;
+  height: fit-content;
+  padding: 20px 70px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   svg {
     cursor: pointer;
   }
@@ -25,9 +25,9 @@ const Wrap = styled.div`
 `;
 
 const Logo = styled(motion.svg)`
-  margin-right: 50px;
-  width: 95px;
-  height: 25px;
+  width: 120px;
+  height: fit-content;
+  margin-right: 36px;
   fill: ${(props) => props.theme.red};
 `;
 
@@ -56,12 +56,12 @@ const Circle = styled(motion.span)`
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -14px;
+  bottom: -10px;
   width: 6px;
   height: 6px;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: ${(props) => props.theme.white.light};
+  background-color: ${(props) => props.theme.red};
 `;
 
 const Search = styled.span`
